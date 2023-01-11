@@ -5,6 +5,7 @@ var app = express();
 res.write(`this is string ${2+2}`)
 res.end()
 
-var server = app.listen(5000, function () {
+var server = app.listen(500, function () {// port is change
+    
     console.log('Node server is running..');
 });
