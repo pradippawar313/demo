@@ -8,6 +8,6 @@ res.end()
 
 });
 
-server.listen(5000); //3 - listen for any incoming requests
+server.listen(5); //3 - listen for any incoming requests
 
 console.log('Node.js web server at port 5000 is running..') 
